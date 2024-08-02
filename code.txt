@@ -1,0 +1,271 @@
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace
+$ git iniit
+git: 'iniit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace
+$ git init
+Initialized empty Git repository in D:/Project workspace/.git/
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace (main)
+$ git clone https://github.com/sameersimma/html-files.git
+Cloning into 'html-files'...
+warning: You appear to have cloned an empty repository.
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace (main)
+$ cd html-files/
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        busapplicationsuccess.html
+        busform.html
+        class.html
+        details&summaries.html
+        fav movies.html
+        indoor outdoor.html
+        loginpage.html
+        loogedin.html
+        order&unorderedlist.html
+        page with bookmarking.html
+        page with iframe.html
+        password validation.html
+        photo web.html
+        registedin.html
+        registerpage.html
+        resume.html
+        song image.html
+        table marks.html
+        tables.html
+        validations.html
+        web page for actors.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git add .
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   busapplicationsuccess.html
+        new file:   busform.html
+        new file:   class.html
+        new file:   details&summaries.html
+        new file:   fav movies.html
+        new file:   indoor outdoor.html
+        new file:   loginpage.html
+        new file:   loogedin.html
+        new file:   order&unorderedlist.html
+        new file:   page with bookmarking.html
+        new file:   page with iframe.html
+        new file:   password validation.html
+        new file:   photo web.html
+        new file:   registedin.html
+        new file:   registerpage.html
+        new file:   resume.html
+        new file:   song image.html
+        new file:   table marks.html
+        new file:   tables.html
+        new file:   validations.html
+        new file:   web page for actors.html
+
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git commit -m "Uploaded html files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sameer@DESKTOP-O2VI4PK.(none)')
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git config --global user.anem "sameersimma"
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git config --global user.name "sameersimma"
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git commit -m "Uploaded html files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Sameer@DESKTOP-O2VI4PK.(none)')
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git config --global user.email "sameersimma151102@gmail.com"
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git commit -m "Uploaded html files"
+[main (root-commit) 3d4e207] Uploaded html files
+ 21 files changed, 728 insertions(+)
+ create mode 100644 busapplicationsuccess.html
+ create mode 100644 busform.html
+ create mode 100644 class.html
+ create mode 100644 details&summaries.html
+ create mode 100644 fav movies.html
+ create mode 100644 indoor outdoor.html
+ create mode 100644 loginpage.html
+ create mode 100644 loogedin.html
+ create mode 100644 order&unorderedlist.html
+ create mode 100644 page with bookmarking.html
+ create mode 100644 page with iframe.html
+ create mode 100644 password validation.html
+ create mode 100644 photo web.html
+ create mode 100644 registedin.html
+ create mode 100644 registerpage.html
+ create mode 100644 resume.html
+ create mode 100644 song image.html
+ create mode 100644 table marks.html
+ create mode 100644 tables.html
+ create mode 100644 validations.html
+ create mode 100644 web page for actors.html
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 12.26 KiB | 1.75 MiB/s, done.
+Total 23 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/sameersimma/html-files.git
+ * [new branch]      main -> main
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   busapplicationsuccess.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git add busapplicationsuccess.html
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   busapplicationsuccess.html
+
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git commit -m "changed one thing"
+[main f880784] changed one thing
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sameersimma/html-files.git
+   3d4e207..f880784  main -> main
+
+Sameer@DESKTOP-O2VI4PK MINGW64 /d/Project workspace/html-files (main)
+$
